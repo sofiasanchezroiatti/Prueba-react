@@ -1,0 +1,45 @@
+#root {
+   margin: 0 auto;
+   padding: 2rem;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: 700px 250px;
+   background-position-x: center;
+}
+
+main {
+   width: 100%;
+   max-width: 1200px;
+   margin: 3rem auto;
+}
+
+.Gallery {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 2rem;
+   margin-bottom: 5rem;
+}
+
+.MyCard {
+   border: 1px solid #cecece;
+   text-align: center;
+   padding-bottom: 1rem;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.Gallery img {
+   width: 100%;
+   border-radius: 18px;
+   padding: 10px;
+   height: auto;
+   object-fit: cover;
+}
+
+p {
+   padding: 10px;
+}
+
+button {
+   width: 100px;
+}
